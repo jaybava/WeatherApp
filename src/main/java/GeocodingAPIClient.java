@@ -11,7 +11,7 @@ import java.net.http.HttpResponse;
 public class GeocodingAPIClient {
 
     private static final String GEOCODING_API_URL = "https://api.openweathermap.org/geo/1.0/direct?q=";
-    private static final String API_KEY = "insert api key here"; // replace api key with one from openweathermap
+    private static final String API_KEY = "INSERT API KEY HERE"; // REPLACE API KEY WITH ONE FROM OPENWEATHERMAP
 
     public Geocode getGeocoding(String city, String state, String country) throws IOException, InterruptedException {
         String url;

@@ -10,7 +10,7 @@ import java.net.http.HttpResponse;
 // api client to use the geocode's latitude and longitude to fetch weather information
 public class WeatherAPIClient {
     private static final String WEATHER_API_URL = "https://api.openweathermap.org/data/2.5/weather?";
-    private static final String API_KEY = "insert api key here"; // add the same openweathermap api key here
+    private static final String API_KEY = "INSERT API KEY HERE"; // ADD THE SAME OPENWATHERMAP API KEY HERE
 
     // method to retrieve information
     public WeatherInfo getWeatherInfo(double latitude, double longitude) throws IOException, InterruptedException {
