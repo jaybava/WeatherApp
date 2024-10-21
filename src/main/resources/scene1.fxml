@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="background" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="851.0" minWidth="601.0" prefHeight="851.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <Label fx:id="title" alignment="CENTER" layoutX="107.0" layoutY="82.0" stylesheets="@style.css" text="Weather App" textFill="WHITE" AnchorPane.bottomAnchor="705.0" AnchorPane.leftAnchor="107.0" AnchorPane.rightAnchor="105.0" AnchorPane.topAnchor="82.0">
+         <font>
+            <Font name="Action Man Bold" size="64.0" />
+         </font>
+      </Label>
+      <Button fx:id="start" layoutX="229.0" layoutY="629.0" mnemonicParsing="false" onAction="#begin" text="Start" AnchorPane.bottomAnchor="163.0" AnchorPane.leftAnchor="229.0" AnchorPane.rightAnchor="228.0" AnchorPane.topAnchor="629.0">
+         <font>
+            <Font name="Action Man" size="36.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

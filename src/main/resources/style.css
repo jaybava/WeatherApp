@@ -1,0 +1,28 @@
+
+
+#background{
+    -fx-background-color:
+            linear-gradient(to top right, #FFB347, #87CEEB);
+}
+
+.button{
+    -fx-background-color: #E6F5D0;
+    -fx-text-fill: #2f4f4f;
+    -fx-background-radius: 10px;
+}
+
+.button:hover{
+    -fx-background-color: #C5D8B4;
+}
+
+.label{
+    -fx-background-color: #E6F5D0;
+    -fx-text-fill: #2f4f4f;
+    -fx-background-radius: 10px;
+}
+
+.text-field{
+    -fx-text-fill: #2f4f4f;
+    -fx-background-color: #E6F5D0;
+    -fx-background-radius: 10px;
+}
