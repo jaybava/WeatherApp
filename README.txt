@@ -27,7 +27,7 @@ Install Java (JDK 17 or higher) and ensure JAVA_HOME is set up.
 
 Run the JAR file located in out/artifacts/WeatherApp_jar/WeatherApp.jar:
 
-<code>```bash java -jar out/artifacts/WeatherApp_jar/WeatherApp.jar ```</code>
+java -jar out/artifacts/WeatherApp_jar/WeatherApp.jar
 
 Enter Location Details:
 Provide a City, optional State, and Country.
